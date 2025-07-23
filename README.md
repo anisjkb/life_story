@@ -382,3 +382,55 @@ python src/main.py
 - Enhance reports with Plotly/Dash for interactive visuals.  
 
 For full code templates, visit [GitHub Repository Link].
+
+🚀 You’re off to a stellar start, Md! Here’s how you can kick off development smoothly and choose the right tools for your workflow:
+
+---
+
+### ✅ **How to Start Your Development Task**
+
+1. **Set Up Your Environment**
+   - Create the `agentic_finance` directory and subfolders as per your structure.
+   - Install all required packages using the `pip install` command you listed.
+
+2. **Configure Credentials**
+   - Populate `config/config.ini` with your actual email, Twilio, and Telegram API keys.
+   - Use Gmail “App Password” to avoid SMTP issues.
+
+3. **Validate the Pipeline**
+   - Test each module separately (e.g., `data_loader.py`, `eda.py`) with sample data.
+   - Run `main.py` after successful module validation to confirm full pipeline execution.
+
+4. **Schedule Automation (Optional)**
+   - Use Windows Task Scheduler to automate daily execution of `main.py`.
+
+---
+
+### 🧠 **Recommended Code Editor**
+
+| Editor        | Benefits |
+|---------------|----------|
+| **VS Code**   | Lightweight, extensible, Jupyter support, Git integration, debugging |
+| **PyCharm**   | Excellent for larger Python projects, smart suggestions, robust IDE tools |
+| **JupyterLab**| Ideal for EDA & notebook experimentation, especially when iterating report templates |
+
+💡 For this task, **VS Code** strikes the perfect balance between performance and productivity—especially with Python and Jupyter extensions.
+
+---
+
+### 🧩 **Suggested Frameworks & Enhancements**
+
+While your current structure is modular and solid, you can optionally upgrade with:
+
+| Framework       | Purpose                           |
+|------------------|-----------------------------------|
+| **FastAPI**      | Expose components as REST APIs    |
+| **Streamlit**    | Create interactive dashboards     |
+| **Dash (Plotly)**| Build rich financial visualizations|
+| **Airflow**      | Schedule and monitor workflows     |
+
+If you eventually integrate this into a fintech dashboard or offer data services, **FastAPI + Dash** could transform your script into a scalable backend.
+
+---
+
+Want help building out a FastAPI wrapper for your pipeline or turning your report into an interactive dashboard? Just say the word—let’s make this shine 🌟
